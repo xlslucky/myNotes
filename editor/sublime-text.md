@@ -50,7 +50,7 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
   "folder_exclude_patterns":
   [
     ".*",
-    //"build",
+    "build",
     "node_modules",
     "bower_components"
   ],

@@ -17,7 +17,7 @@
 
 ## Mac上命令行启动编辑器
 
-```
+```shell
 $ echo $PATH
 /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin 
 
@@ -27,7 +27,7 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 此时就可以通过`subl .`在sublime中打开当前文件夹
 
 ## 配置文件
-```
+```json
 {
   "bold_folder_labels": true,
   "caret_style": "smooth",

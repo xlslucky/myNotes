@@ -24,3 +24,15 @@ function changeURLArg(url,arg,arg_val){
   return url+'\n'+arg+'\n'+arg_val; 
 } 
 ```
+
+#### js解析地址栏
+
+```shell
+# name 地址栏参数名
+function getQueryString (name) {
+  var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+  var r = window.location.search.substr(1).match(reg);
+  if (r != null) return decodeURIComponent(r[2]);
+  return "";
+}
+```

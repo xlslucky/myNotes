@@ -29,8 +29,9 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 * HTML-CSS-JS Prettify
 * SCSS
 * JavaScript Completions
-* Material Color Scheme       // Material主题
-* Material Theme              // Material主题
+* Material Color Scheme
+* Material Theme
+* Boxy Theme
 
 ## Mac上命令行启动编辑器
 
@@ -48,8 +49,10 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 {
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  "theme": "Material-Theme.sublime-theme",
-  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+  /*"theme": "Material-Theme.sublime-theme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",*/
+  "theme": "Boxy Ocean.sublime-theme",
+  "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
   "default_line_ending": "unix",
   "disable_tab_abbreviations": true,
   "draw_minimap_border": true,

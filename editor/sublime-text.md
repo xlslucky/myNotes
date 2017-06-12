@@ -29,8 +29,8 @@ import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed
 * HTML-CSS-JS Prettify
 * SCSS
 * JavaScript Completions
-* Material Color Scheme
-* Material Theme
+* Material Color Scheme       // Material主题
+* Material Theme              // Material主题
 
 ## Mac上命令行启动编辑器
 

@@ -1,5 +1,8 @@
 # sublime 编辑器
 
+## 下载
+[sublime 官网](http://www.sublimetext.com/)
+
 ## plugin
 
 > ctrl(command) + shift + p

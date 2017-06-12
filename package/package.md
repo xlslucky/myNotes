@@ -32,3 +32,26 @@
   moment().startOf('hour').fromNow();       // 38 分钟前
 ```
 
+### 2.实用工具[utility](https://github.com/node-modules/utility)
+
+#### 安装
+
+```shell
+  npm install utility --save   # npm
+```
+* md5
+* sha1
+* sha256
+* hmac
+* decode and encode
+* Date utils
+* Number utils
+* Timers
+* map
+* String utils
+* Try
+* argumentsToArray
+* JSON
+* Object.assign
+* benchmark
+

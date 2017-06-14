@@ -5,11 +5,7 @@
 #### 安装
 
 ```shell
-  bower install moment --save # bower
   npm install moment --save   # npm
-  Install-Package Moment.js   # NuGet
-  spm install moment --save   # spm
-  meteor add momentjs:moment  # meteor
 ```
 
 #### 日期格式化

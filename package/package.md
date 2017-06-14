@@ -53,6 +53,9 @@
 
 ### 3.nodejs实现promise [Q](https://github.com/kriskowal/q)
 
+> promise是解决JS中回调层次太深 代码难懂 改起来麻烦的问题。
+> Q是nodeJs中实现promise的包之一，是nodeJs中比较常用的一个库。
+
 #### 安装
 
 ```shell

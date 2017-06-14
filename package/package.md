@@ -112,3 +112,13 @@
   console.log(qs.stringify({size: 10, sum: 212}))
   // => size=10&sum=212
 ```
+
+### 5.工具库 [lodash](http://lodashjs.com/docs/)
+
+> 内部封装了诸多对字符串、数组、对象等常见数据类型的处理函数
+
+#### 安装
+
+```shell
+    npm install lodash --save   # npm
+```

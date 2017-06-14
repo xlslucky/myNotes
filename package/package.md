@@ -89,3 +89,26 @@
     return defer.promise;
   }
 ```
+
+### 解析url [query-string](https://github.com/sindresorhus/query-string)
+
+#### 安装
+
+```shell
+    npm install query-string --save   # npm
+```
+
+```js
+  var qs = require('query-string');
+
+  var search = '?id=10086&name=xu';
+  console.log(qs.parse(search))
+  // => { id: '10086', name: 'xu' }
+
+  var hash = '#num=10';
+  console.log(qs.parse(hash))
+  // => { num: '10' }
+
+  console.log(qs.stringify({size: 10, sum: 212}))
+  // => size=10&sum=212
+```

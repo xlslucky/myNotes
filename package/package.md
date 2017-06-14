@@ -90,7 +90,7 @@
   }
 ```
 
-### 解析url [query-string](https://github.com/sindresorhus/query-string)
+### 4.解析url [query-string](https://github.com/sindresorhus/query-string)
 
 #### 安装
 

@@ -55,3 +55,37 @@
 * Object.assign
 * benchmark
 
+### 3.nodejs实现promise[Q](https://github.com/kriskowal/q)
+
+#### 安装
+
+```shell
+  npm install q --save   # npm
+```
+
+```shell
+  #例
+  var request = require('request');
+  var Q = require('q');
+  function fetch (url) {
+    var defer = Q.defer();
+    request(url, function (error, body) {
+      if (error) {
+        defer.reject(error)
+      }else {
+        var resp = body.body;
+        if (typeof resp === 'string') {
+          try {
+            resp = JSON.parse(resp);
+            defer.resolve(resp);
+          } catch(e) {
+            defer.resolve({});
+          }
+        }else {
+          defer.resolve(resp)
+        }
+      }
+    })
+    return defer.promise;
+  }
+```

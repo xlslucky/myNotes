@@ -32,7 +32,7 @@
   moment().startOf('hour').fromNow();       // 38 分钟前
 ```
 
-### 2.实用工具[utility](https://github.com/node-modules/utility)
+### 2.实用工具 [utility](https://github.com/node-modules/utility)
 
 #### 安装
 
@@ -55,7 +55,7 @@
 * Object.assign
 * benchmark
 
-### 3.nodejs实现promise[Q](https://github.com/kriskowal/q)
+### 3.nodejs实现promise [Q](https://github.com/kriskowal/q)
 
 #### 安装
 

@@ -95,7 +95,7 @@
 #### 安装
 
 ```shell
-    npm install query-string --save   # npm
+  npm install query-string --save   # npm
 ```
 
 ```js

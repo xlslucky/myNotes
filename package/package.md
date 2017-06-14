@@ -120,5 +120,5 @@
 #### 安装
 
 ```shell
-    npm install lodash --save   # npm
+  npm install lodash --save   # npm
 ```

@@ -56,3 +56,53 @@ gulp.task('watch', ['sass', 'html'], function () {
 
 gulp.task('default', ['watch']);
 ```
+
+### wap例子
+
+```js
+var gulp = require('gulp');
+var sass = require('gulp-sass');
+var cssnano = require('gulp-cssnano');
+var prefix = require('gulp-autoprefixer');
+var rename = require('gulp-rename');
+var px2rem = require('gulp-px2rem');
+
+gulp.task('sass', function() {
+    gulp.src('sass/main.scss')
+        .pipe(sass())
+        .pipe(prefix({
+            browsers: ['last 14 versions']
+        }))
+        .pipe(px2rem({ replace: true, rootValue: 37.5 }))
+        .pipe(cssnano())
+        .pipe(rename(function(path) {
+            path.basename = "story-wap.min";
+        }))
+        .pipe(gulp.dest('./styles'));
+});
+
+gulp.task('ranking', function() {
+    gulp.src('sass/ranking-0508.scss')
+        .pipe(sass())
+        .pipe(prefix({
+            browsers: ['last 14 versions']
+        }))
+        .pipe(px2rem({ replace: true, rootValue: 37.5 }))
+        .pipe(cssnano())
+        .pipe(rename(function(path) {
+            path.basename += ".min";
+        }))
+        .pipe(gulp.dest('./styles'));
+});
+
+
+// gulp.task('watch', ['sass', 'christmas', 'christmas-1','lucky','duyao-vote'], function () {
+//   gulp.watch('sass/*.scss', ['sass', 'christmas', 'christmas-1','duyao-vote']);
+// });
+gulp.task('watch', ['pay-prefer', 'sass', 'ranking'], function() {
+    gulp.watch('sass/pay-prefer.scss', ['pay-prefer']);
+    gulp.watch('sass/*.scss', ['sass', 'ranking']);
+});
+
+gulp.task('default', ['watch']);
+```

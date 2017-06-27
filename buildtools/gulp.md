@@ -9,6 +9,8 @@
 * gulp-px2rem (px转rem)
 * gulp-wrap (定义使用公共的头部和底部)
 
+### pc例子
+
 ```js
 var gulp = require('gulp');
 var sass = require('gulp-sass');

@@ -2,11 +2,11 @@
 
 #### js修改url中某个指定的参数的值
 
-```shell
-# url 目标url 
-# arg 需要替换的参数名称 
-# arg_val 替换后的参数的值 
-# return url 参数替换后的url 
+```js
+// url 目标url 
+// arg 需要替换的参数名称 
+// arg_val 替换后的参数的值 
+// return url 参数替换后的url 
 function changeURLArg(url,arg,arg_val){ 
   var pattern=arg+'=([^&]*)'; 
   var replaceText=arg+'='+arg_val; 
@@ -27,8 +27,8 @@ function changeURLArg(url,arg,arg_val){
 
 #### js解析地址栏
 
-```shell
-# name 地址栏参数名
+```js
+// name 地址栏参数名
 function getQueryString (name) {
   var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
   var r = window.location.search.substr(1).match(reg);

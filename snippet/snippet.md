@@ -67,8 +67,9 @@ function delCookie(name) {
 } 
 ```
 
+#### 页面标签切换 改变title
+
 ```js
-// 页面标签切换 改变title
 (function() {
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {

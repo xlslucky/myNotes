@@ -49,10 +49,8 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
 {
   "bold_folder_labels": true,
   "caret_style": "smooth",
-  /*"theme": "Material-Theme.sublime-theme",
-  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",*/
-  "theme": "Boxy Ocean.sublime-theme",
-  "color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+  "theme": "Material-Theme.sublime-theme",
+  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "default_line_ending": "unix",
   "disable_tab_abbreviations": true,
   "draw_minimap_border": true,
@@ -97,4 +95,34 @@ $ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /us
   "translate_tabs_to_spaces": true
 }
 
+```
+
+### 主题
+
+```js
+// Material
+"theme": "Material-Theme.sublime-theme",
+"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+
+// Boxy
+"theme": "Boxy Ocean.sublime-theme",
+"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
+
+"theme_accent_cyan": true,
+"theme_bar": true,
+"theme_bar_logo_atomized": true,
+"theme_bar_shadow_hidden": true,
+"theme_button_rounded": true,
+"theme_dirty_colored_always": true,
+"theme_icons_materialized": true,
+"theme_scrollbar_rounded": true,
+"theme_sidebar_highlight_selected_text_only": true,
+"theme_sidebar_highlight_text_only": true,
+"theme_sidebar_indent_top_level_disabled": true,
+"theme_size_md": true,
+"theme_tab_highlight_text_only": true,
+"theme_tab_selected_transparent": true,
+"theme_tab_selected_underlined": true,
+"theme_tab_size_xxl": true,
+"theme_unified": true,
 ```

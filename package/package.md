@@ -123,7 +123,7 @@
   npm install lodash --save   # npm
 ```
 
-### 6.aes加密 [https://github.com/ricmoo/aes-js#readme]
+### 6.aes加密 [aes](https://github.com/ricmoo/aes-js#readme)
 
 > javascript与java相互加解密
 
@@ -137,7 +137,7 @@
   // 我还不会使
 ```
 
-### 7.multer [https://github.com/expressjs/multer/blob/master/README.md]
+### 7.multer [multer](https://github.com/expressjs/multer/blob/master/README.md)
 
 > Multer 是一个 node.js 中间件，用于处理 multipart/form-data 类型的表单数据, 它主要用于上传文件. 它是写在 busboy 之上非常高效。
 

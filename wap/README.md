@@ -7,7 +7,7 @@
 去除系统默认appearance的样式,常用于IOS下移除原生样式
 
 ```shell
-  -webkit-appearance：none
+-webkit-appearance: none;
 ```
 
 消除在移动浏览器上触发click事件与一个物理Tap(敲击)之间的300延迟。
